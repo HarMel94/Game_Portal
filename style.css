@@ -1,0 +1,258 @@
+
+*{
+    
+}
+
+body{
+    font-family:fantasy;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.main{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: rgba(0, 15, 92, 0.44);
+    box-shadow: 4px 6px 8px 6px rgb(1, 32, 77);
+    border-radius: 3px;
+}
+
+.best{
+    margin-left: 10px;
+    padding: 5px;
+    width: 250px;
+    height: 40px;
+    color: rgb(198, 206, 252);
+    font-size: 25px;
+    background-color:rgb(0, 71, 118);
+    box-shadow: 4px 6px 8px 6px rgba(0, 0, 0, 0.597);
+    border-radius: 5px;
+}
+
+.input{
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    left: 75%;
+    top: 190px;
+    padding: 5px;
+    width: 250px;
+    height: 40px;
+    font-size: 25px;
+    background-color:rgb(0, 71, 118);
+    box-shadow: 4px 6px 8px 6px rgba(0, 0, 0, 0.597);
+    border-radius: 5px;
+}.input::-webkit-input-placeholder{
+    color: rgb(198, 206, 252);
+    font-family:fantasy;
+}.input:focus {
+    border: 4px solid rgb(18, 87, 99); 
+    background-color:rgba(0, 87, 87, 0.644);  
+    box-shadow: 2px 2px 2px 2px rgba(90, 90, 90, 0.597);
+}
+
+
+.header .img_1{
+    margin: 10px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    width: 50%;
+    height: 60%;
+    box-shadow: 4px 6px 8px 6px rgb(1, 32, 77);
+}.header .about_1{
+    margin: 10px;
+    width: 400px;
+    top: 250px;
+    color: snow;
+    position: absolute;
+    left: 840px;
+}
+
+
+.header .img_2{
+    margin: 10px;
+    position: absolute;
+    left: 560px;
+    top: 660px;
+    width: 50%;
+    height: 60%;
+    box-shadow: 4px 6px 8px 6px rgb(1, 32, 77);
+}.header .about_2{
+    margin: 10px;
+    width: 400px;
+    color: snow;
+    position: absolute;
+    top: 660px;
+    left: 100px;
+}
+
+
+.header .img_3{
+    top: 1070px;
+    margin: 10px;
+    position: absolute;
+    left: 100px;
+    width: 50%;
+    height: 60%;
+    box-shadow: 4px 6px 8px 6px rgb(1, 32, 77);
+}.header .about_3{
+    top: 1070px;
+    margin: 10px;
+    width: 400px;
+    color: snow;
+    position: absolute;
+    left: 840px;
+}
+
+.candidates{
+    position: absolute;
+    top: 1480px;
+    padding: 5px; 
+    margin-left: 10px;
+    width: 295px;
+    height: 40px;
+    color: rgb(198, 206, 252);
+    font-size: 25px;
+    background-color:rgb(0, 71, 118);
+    box-shadow: 4px 6px 8px 6px rgba(0, 0, 0, 0.597);
+    border-radius: 5px;
+}
+
+
+.gameOfYear_1{
+    left: 55px;
+    display: flex;
+    margin: 25px;
+    position: absolute;
+    top: 1525px;
+    overflow: hidden;
+}
+.gameOfYear_2{
+    left: 55px;
+    display: flex;
+    margin: 25px;
+    position: absolute;
+    top: 2125px; 
+    overflow: hidden;   
+}
+
+
+.year_1 {
+    position: relative;
+    width: 388px; 
+    height: 600px;
+}
+  
+.yearImg_1 {
+    display: block;
+}
+  
+.overlay {
+    font-family:cursive;
+    background-color: #1b3085d2;
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    transform: translateY(101%);
+    transition: 0.4s ease-in;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    position: absolute;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+.year_1:hover .overlay {
+    transform: translateY(0);
+}
+
+
+.footer{
+	background: rgba(33, 43, 186, 0.809);
+	box-shadow: 3px 2px 9px 10px rgba(27, 67, 225, 0.693);
+	box-sizing: border-box;
+    border-radius: 10px;
+	width: 95%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+    position: absolute;
+    left: 30px;
+    top: 2800px;
+    padding-bottom: 100px;
+}.footer h3{
+	color:  #ffffff;
+	font: 36px ;
+}
+
+
+.footer_left{
+    display: inline-block;
+	vertical-align: top;
+	width: 40%;
+}
+
+
+.footer_links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}.footer_links a{
+	display:inline-block;
+	line-height: 1.8;
+    font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+
+.footer_company_name{
+	color:  rgb(94, 94, 94);
+	font-size: 14px;
+	font-weight: normal;
+}
+
+
+.footer_center{
+    display: inline-block;
+	vertical-align: top;
+	width: 35%;
+}.footer_center p{
+	color: #ffffff;
+    display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+
+.footer_right{
+    display: inline-block;
+	vertical-align: top;
+	width: 20%;
+}
+
+
+.footer_company_about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+}.footer_company_about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+
+
+
